@@ -13,18 +13,21 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+ 
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  /* background: #0f2945; */
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
+  ;
 }
+
 
 @media (min-width: 1024px) {
   body::before {
@@ -44,6 +47,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+ /*------------------------------------------------------------
+ #Animation
+ ------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Header
@@ -341,14 +348,14 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   padding: 0;
   line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #dee2e6;
+  color: #7a7676;
   font-family: "Poppins", sans-serif;
 }
 
@@ -922,7 +929,7 @@ section .container {
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+  margin: 5px 0 0 50px;
   display: flex;
 }
 
