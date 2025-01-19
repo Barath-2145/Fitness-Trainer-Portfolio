@@ -1103,3 +1103,12 @@ section .container {
     transform: translateX(-50%);
   }
 }
+/* feedback styles */
+.feedback-video{
+  display: flex;
+  justify-content: center;
+  
+}
+video{
+max-height: 40em;
+}
